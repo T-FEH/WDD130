@@ -1,11 +1,13 @@
-/*body {
+body {
     text-align: center;
-  } */
+    margin: 0;
+  }
 
   nav {
     background-color: steelblue;
     padding: 10px;
     text-align: center;
+    padding: 25px;
   }
 
   #active {
@@ -16,6 +18,7 @@
   a {
     color: white;
     margin: 40px;
+    padding: 25px;
     font-size: 1.5em;
   }
   
@@ -27,6 +30,7 @@
   h1 {
     color: steelblue;
     text-align: center;
+    margin: 50px 0;
   }
 
  /* * {
@@ -54,6 +58,10 @@
     background-color: steelblue;
     color: white;
     text-align: center;
+  }
+
+  footer p {
+    padding: 25px;
   }
 
   main p {
