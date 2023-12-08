@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Quattrocentro", serif;
+    font-family: 'Quattrocento',Helvetica, serif;
 }
 
 header {
@@ -32,6 +32,8 @@ nav a {
 
 h1 {
     text-align: center;
+    font-family: 'Playfair Display', Tahoma, verdana;
+    font-weight: bold;
 }
 
 main {

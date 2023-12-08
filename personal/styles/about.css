@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quattrocento&display=swap");
+
+
 body {
-    font-family: "Quattrocentro", serif;
+    font-family: "Quattrocento", serif, monospace;
 }
 
 header {
@@ -21,6 +24,8 @@ header nav a {
 
 h1 {
     text-align: center;
+    font-family: 'Playfair Display', Geneva, sans-serif;
+    font-weight: bold;
 }
 
 .logo {

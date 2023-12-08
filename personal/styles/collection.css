@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quattrocento&display=swap");
+
+
 .container {
     display: flex;
     justify-content: center;
@@ -22,7 +25,13 @@ img {
     height: auto;
 }
 
+h1 {
+    font-family: 'Playfair Display', Tahoma, Verdana;
+    font-weight: bold;
+}
+
 h2 {
+    font-family: 'Playfair Display', Verdana, Tahoma;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
@@ -39,7 +48,7 @@ p {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Quattrocento', Helvetica, monospace;
     margin: 0;
     padding: 0;
 }
