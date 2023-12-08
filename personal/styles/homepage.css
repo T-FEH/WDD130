@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quattrocento&display=swap");
+
+.logo {
+    width: 80px;
+    height: auto;
+    padding-top: 10px;
+}
+
+body {
+    font-family: "Quattrocentro", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DCB933;
+}
+
+header nav a:hover {
+    color: #ccc;
+}
+nav {
+    margin-top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    padding: 50px;
+}
+
+.top-picks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top-pick {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.top-pick img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.top-pick-info {
+    padding: 10px;
+}
+
+footer {
+    text-align: right;
+    background-color: #DCB933;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    margin: 0;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+footer p:hover{
+    text-decoration: underline;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.social-media li {
+    margin: 0 5px;
+}
+
+.social-media li a img {
+    width: 20px;
+    height: 20px;
+}
